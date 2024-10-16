@@ -1,0 +1,23 @@
+<!-- Summary of Game Flow:
+render() draws the board.
+A player clicks a cell, triggering handleCellClick(index).
+Inside handleCellClick:
+The cell is marked with currentPlayer.
+render() is called to update the UI.
+checkWinner() is called to check if the game has been won or tied.
+If the game is ongoing, currentPlayer is switched between 'X' and 'O'.
+The process repeats until a winner or a tie is declared. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe| O or X</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="board"></div>
+    <script src="script.js">   
+    </script>
+  </body>
+</html>
